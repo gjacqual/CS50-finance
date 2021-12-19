@@ -1,0 +1,90 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+@media (min-width: 768px)
+{
+    .appology-img {
+        width: 400px;
+    }
+}
+
+.hint {
+    padding: 10px 30px;
+    font-size:11px;
+    color:#040404;
+}
+
+.form-select {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    min-width: 207px;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.fw-bold {
+    font-weight: 700
+}
+
+.table>:not(:first-child) {
+    border-top: 2px solid #000;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.table th {
+    border-top: 0;
+    border-bottom: 2px solid #000 !important;
+}
